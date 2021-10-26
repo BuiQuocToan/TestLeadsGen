@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bitter', serif;
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .header , .body, .footer {
+      width: 100%;
+    }
+  }

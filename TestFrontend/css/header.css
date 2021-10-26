@@ -1,0 +1,33 @@
+
+.header h1{
+  font-weight: bold;
+  margin-top: 50px;
+}
+.header>.buttonContainer{
+  text-align: center;
+}
+.header>.buttonContainer>.btn{
+  text-align: center;
+  /* -moz-border-radius: 60px; */
+  border-radius: 60px;
+  /* margin-bottom: 40px;
+  background-color: #17a2b8; */
+  color:white;
+}
+.header>.nav{
+  list-style-type:disc;
+  font: caption;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #0e7789;
+}
+.nav-pills .nav-link {
+  color: white;
+  margin-right: 25px;
+}
+a:hover {
+  background-color: #083d63;
+}
+.header>.buttonContainer>.btn:hover {
+  background-color: #083d63;
+}
